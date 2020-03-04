@@ -1,27 +1,29 @@
 /*Padrão de letras e palavras*/
 p{
-    text-align: left;
-    line-height: normal;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-indent: 30px;
+    padding: 0 45px;
+    text-indent: 15px;
 }
 
 /*Forte de texto*/
 body{
     columns: #333333;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940;
 }
 
 /*Imagem de fundo*/
 h1{
     background-image: url(mirrorfashion/img/sobre-background.jpg);
+    padding: 10px;
 }
 
 /*Linha em baixo do sobtexto*/
 h2{
     border-bottom-style: groove;
     border-color: black;
+    padding: 10 20px;
 }
 
 /*Padrão das imagens*/
@@ -31,9 +33,39 @@ figure{
     border-color: #ccc;
     border-width: 1px;
     border-style: solid;
+    padding: 15px;
+    margin: 30px;
 }
 
 /*Formato da fonte do rodapé da imagem*/
 figcaption{
     font-style: italic;
+    margin-top: 10px;
 }
+
+#Centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#Familia-pelho{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#rodape{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
