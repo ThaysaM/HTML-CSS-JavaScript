@@ -10,7 +10,7 @@ body{
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 940;
+    width: 940px;
 }
 
 /*Imagem de fundo*/
@@ -69,3 +69,7 @@ figcaption{
     width: 94px;
 }
 
+.logo{
+    margin: 0 auto;
+    width: 940px;
+}
