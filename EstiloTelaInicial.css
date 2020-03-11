@@ -48,3 +48,44 @@ header{
     width: 940px;
 }
 
+.busca, .menu-departamento{
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+    margin-left: 230px;
+    width: 230px;
+
+    float: left;
+}
+
+.busca h2, .busca form, .menu-departamento h2{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.menu-departamento li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamento a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+.menu-departamento {
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-destaque {
+    margin-top: 10px;
+}
