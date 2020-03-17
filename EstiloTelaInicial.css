@@ -3,6 +3,7 @@ body{
     font-family: 'Lucida Sans Unicode','Lucida Grande', sans-serif;
 }
 
+/*Início do cabeçalho*/
 header{
     position: relative;
 }
@@ -18,10 +19,10 @@ header{
     background-repeat: no-repeat;
     background-position: top right;
 
-
     font-size: 12px;
     padding-right: 35px;
     padding-top: 8px;
+
     text-align: right;
     width: 140px;
 
@@ -32,32 +33,46 @@ header{
 
 .menu-opcoes ul{
     font-size: 15px;
+    float: left;
 }
 
 .menu-opcoes ul li{
     display: inline;
-    margin-left: 20px;  
+    margin-left: 10px; 
 }
 
 .menu-opcoes a{
     color: #003366;
 }
 
-.container{
-    margin: 0 auto;
-    width: 940px;
+.conteiner{
+    margin: auto;
+    width: 75%;
+    padding: 1px;
+}
+
+.conteiner img{
+    margin-left: 10px;
+}
+/*Fim do cabeçalho*/
+
+/*Início do contêiner destaques*/
+
+.conteiner-destaque{
+    margin: auto;
+    width: 75%;
+}
+
+.menu{
+    width: 30%; 
+    float: left;
 }
 
 .busca, .menu-departamento{
     background-color: #DCDCDC;
     font-weight: bold;
     text-transform: uppercase;
-
-    margin-right: 10px;
-    margin-left: 230px;
-    width: 230px;
-
-    float: left;
+    padding: 1px;
 }
 
 .busca h2, .busca form, .menu-departamento h2{
@@ -78,14 +93,66 @@ header{
 
 .busca input[type=search]{
     width: 170px;
+    margin-bottom: 10px;
 }
 
 .menu-departamento {
-    clear: left;
     margin-top: 10px;
     padding-bottom: 10px;
 }
 
-.container-destaque {
-    margin-top: 10px;
+.banner{
+    width: 69%;
+    float: right;
 }
+
+.banner img{
+    width: 100%;
+}
+/*Fim do conteiner destaques*/
+
+/*Início dos painéis*/
+.paineis{
+    margin: auto;
+    width: 75%;
+
+}
+
+.novidades{
+    float: left;
+    width: 50%;
+    background-color: #F5DCDC;
+    margin-bottom: 10px;
+    
+}
+
+.destaques{
+    width: 50%;
+    float: right;
+    background-color: #DCDCF5;
+    margin-bottom: 10px;
+}
+
+.paineis li{
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    margin: 0;
+    margin-right: 2px;
+}
+
+.paineis h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 45px;
+}
+
+.paineis a{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+/*Fim dos painéis*/
